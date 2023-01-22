@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="66">
     <author>yumi</author>
     <version>1.0.2.1</version>
@@ -7,6 +7,7 @@
         <fr>Informations De Champ Supplémentaires</fr>
         <de>Zusätzliche Feldinfo</de>
         <ru>Дополнительная Информация О Поле</ru>
+		<tr>Ek Alan Bilgileri</tr>
     </title>
     <description>
         <en><![CDATA[
@@ -50,9 +51,9 @@ Zeigen Sie zusätzliche Informationen im Feldinfofenster an, wenn Sie durch ein 
 New in v1.0.1.0
   - Potenzielle Erntemenge und Ertrag hinzugefügt
 Fixed in v1.0.2.0
-  - Korrigieren Sie die Kompatibilität mit Precision Farming
+  - Kompatibilität mit Precision Farming - gefixt
 Fixed in v1.0.2.1
-  - Fläche jedes Feldes mit Precision Farming
+  - Feldbereich wird bei Precision Farming nicht mehr angezeigt - gefixt
 ]]></de>
         <pl><![CDATA[
 Wyświetlaj dodatkowe informacje o polu na panelu informacyjnym podczas chodzenia po polu:
@@ -99,6 +100,20 @@ Arreglado in v1.0.2.1
 Исправлено в v1.0.2.1
   - Площадь каждого поля на участке с Precision Farming
 ]]></ru>
+        <tr><![CDATA[
+Bir alanda yürürken alan bilgileri panelinde ek bilgiler görüntüleme:
+ - Mevcut arazideki her alanın alanı
+ - Mevcut arazi alanı
+ - Sahip olmadığınız arazideki ekili alanın hektar başına fiyatı (ac başına)
+ - Potansiyel hasat miktarı ve hasat edilmeye hazır tarlalarda verim
+==== DEĞİŞİM GÜNLÜĞÜ ====
+v1.0.1.0'daki yenilikler
+ - Potansiyel hasat miktarı ve verim eklendi
+v1.0.2.0'da düzeltildi
+ - Precision Farming ile uyumluluğu düzeltin
+v1.0.2.1'de düzeltildi
+ - Hassas Tarım ile gösterilmeyen tarla alanını düzeltin
+]]></tr>
     </description>
     <iconFilename>modIcon.dds</iconFilename>
     <multiplayer supported="true"/>
@@ -115,6 +130,7 @@ Arreglado in v1.0.2.1
             <pl>Powierzchnia pola %d</pl>
             <es>Area del campo %d</es>
             <ru>Площадь поля %d</ru>
+			<tr>Alan %d Alanı</tr>
         </text>
         <text name="additionalFieldInfo_FARMLAND_AREA">
             <fr>Superficie du terrain</fr>
@@ -123,6 +139,7 @@ Arreglado in v1.0.2.1
             <pl>Powierzchnia terenu</pl>
             <es>Area de la parcela</es>
             <ru>Площадь участка</ru>
+			<tr>Arazi Alanı</tr>
         </text>
         <text name="additionalFieldInfo_AREA">
             <fr>Superficie</fr>
@@ -131,6 +148,7 @@ Arreglado in v1.0.2.1
             <pl>Teren</pl>
             <es>Area</es>
             <ru>Площадь</ru>
+			<tr>Bölge</tr>
         </text>
         <text name="additionalFieldInfo_PRICE_ON_AREA">
             <fr>Prix à l'%s</fr>
@@ -139,6 +157,7 @@ Arreglado in v1.0.2.1
             <pl>Cena za %s</pl>
             <es>Precio por %s</es>
             <ru>Поле(я) на участке по</ru>
+			<tr>%s başına fiyat</tr>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_HARVEST">
             <fr>Récolte potentielle</fr>
@@ -147,6 +166,7 @@ Arreglado in v1.0.2.1
             <pl>Potencjalny plon</pl>
             <es>A cosechar aprox.</es>
             <ru>Возможный урожай</ru>
+			<tr>Potansiyel hasat miktarı</tr>
         </text>
         <text name="additionalFieldInfo_POTENTIAL_YIELD">
             <fr>Rendement potentiel</fr>
@@ -155,6 +175,7 @@ Arreglado in v1.0.2.1
             <pl>Potencjalny zysk</pl>
             <es>Posible rendimiento</es>
             <ru>Возможн. урожайность</ru>
+			<tr>Potansiyel verim</tr>
         </text>
     </l10n>
 
